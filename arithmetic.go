@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	fmt.Println("Sum of 2 and 3 is", Sum(2, 3))
 }

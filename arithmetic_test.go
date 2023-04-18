@@ -1,5 +1,7 @@
 package main
 
+import "testing"
+
 func TestSum(t *testing.T) {
 	sum := Sum(2, 3)
 	if sum != 5 {
